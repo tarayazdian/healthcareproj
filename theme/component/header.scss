@@ -1,0 +1,30 @@
+ul,
+li {
+  list-style: none;
+}
+.header {
+  width: 100%;
+  padding: 15px 0;
+  .menu {
+    display: flex;
+    padding: 0 10px;
+    .menu-item {
+      padding: 20px;
+
+      .black-content{
+        color: black;
+      }
+
+      a {
+        display: block;
+        text-decoration: none;
+        color: #7d7987;
+
+        &:hover{
+          color: black;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}

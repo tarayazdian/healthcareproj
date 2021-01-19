@@ -1,0 +1,23 @@
+.leadingSection {
+  width: 100%;
+  padding: 100px 0;
+
+  .leading-h2 {
+    position: relative;
+    padding: 30px 0;
+    &::after {
+      content: "";
+      width: 56px;
+      height: 2px;
+      background-color: black;
+      border-radius: 10px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+  p {
+    padding: 20px 0;
+    color: #7d7987;
+  }
+}

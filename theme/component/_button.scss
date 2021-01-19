@@ -1,0 +1,24 @@
+.button {
+  border-radius: 55px;
+  padding: 0 50px;
+  height: 56px;
+  cursor: pointer;
+
+  &-outline {
+    background: transparent;
+    border: 1px solid #458ff6;
+    color: #458ff6;
+  }
+
+  &-blue {
+    box-shadow: 0 2px 2px 2px #a6a3ac;
+    border: none;
+    background: #458ff6;
+    color: white;
+  }
+
+  &-icon{
+    width: 10px;
+    margin-left: 5px;
+  }
+}
