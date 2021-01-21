@@ -2,9 +2,13 @@
   "name": "healthcareproj",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarayazdian/healthcareproj.git"
   },
   "keywords": [],
   "author": "",
@@ -13,8 +17,15 @@
     "browser-sync": "^2.26.13",
     "gulp": "^4.0.2"
   },
+  "bugs": {
+    "url": "https://github.com/tarayazdian/healthcareproj/issues"
+  },
+  "homepage": "https://github.com/tarayazdian/healthcareproj#readme",
   "dependencies": {
     "gulp-sass": "^4.1.0",
-    "gulp-sourcemaps": "^3.0.0"
+    "gulp-sourcemaps": "^3.0.0",
+    "autoprefixer": "^10.2.3",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
   }
 }

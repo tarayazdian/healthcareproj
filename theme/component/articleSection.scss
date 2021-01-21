@@ -1,53 +1,12 @@
 .articleSection {
-  width: 100%;
-  padding: 100px 0;
-  background: url('../images/element.png') no-repeat right center;
-  &-head {
-    text-align: center;
-
-    h2 {
-      padding: 30px;
-      position: relative;
-      margin-bottom: 50px;
-  
-      &::after {
-        content: "";
-        width: 56px;
-        height: 2px;
-        background-color: black;
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translate(-50%, 0);
-      }
-    }
-  }
-  
+  background: url("../images/element.png") no-repeat right center;
   &-boxes {
-    height: 100%;
-    background-color: white;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-    border-radius: 20px;
-    overflow: hidden;
-
-    .articleSection-content {
-      padding: 20px;
-    }
-    h3 {
-      padding: 20px 0;
-    }
     p {
-      padding: 10px 0;
       color: #7d7987;
     }
     a {
-      padding: 20px 0;
-      display: block;
       color: #4089ed;
-      text-decoration: none;
     }
-  }
-  .view-box {
-    padding: 50px 0;
   }
 }

@@ -1,0 +1,9 @@
+.menu {
+  &-item {
+    color: #999;
+    
+    &.active {
+      color: black;
+    }
+  }
+}

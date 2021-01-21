@@ -5,52 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./theme/app.css" />
+    <link rel="stylesheet" href="public/build/tailwind.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container jus-between al-center">
+    <header class="py-4">
+      <div class="row flex justify-between items-center">
         <a href="">
           <img src="./images/logo.svg" alt="" />
         </a>
-        <ul class="menu small-hide medium-hide">
-          <li class="menu-item">
-            <a href="" class="black-content">home</a>
+        <ul class="menu px-2 lg:flex hidden md:hidden">
+          <li class="menu-item active p-6">
+            <a href="">home</a>
           </li>
-          <li class="menu-item">
+          <li class="menu-item p-6">
             <a href="">find a doctor</a>
           </li>
-          <li class="menu-item">
+          <li class="menu-item p-6">
             <a href="">apps</a>
           </li>
-          <li class="menu-item">
+          <li class="menu-item p-6">
             <a href="">testimonials</a>
           </li>
-          <li class="menu-item">
+          <li class="menu-item p-6">
             <a href="">about us</a>
           </li>
         </ul>
       </div>
     </header>
-    <section class="mainSection">
-      <div class="container al-center jus-between">
-        <div class="mainSection-content large-wi-30 small-wi-100 medium-wi-100 small-mb-16 medium-mb-16">
-          <h1>Virtual healthcare for you</h1>
-          <p>
+    <section class="py-9">
+      <div class="row justify-between items-center">
+        <div class="lg:w-4/12 md:w-1/2 w-full mb-4 lg:mb-0">
+          <h1 class="text-3xl font-bold py-2">Virtual healthcare for you</h1>
+          <p class="py-4">
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone
           </p>
           <button class="button button-blue">consult today</button>
         </div>
-        <div class="mainSection-img large-wi-50 small-wi-100 medium-wi-100">
+        <div class="md:w-1/2 w-full">
           <img src="./images/trafalgar-header illustration 1.png" alt="" />
         </div>
       </div>
     </section>
-    <section class="servicesSection">
-      <div class="container">
-        <div class="wi-100 servicesSection-head">
-          <h2>our services</h2>
-          <p>
+    <section class="section servicesSection py-20">
+      <div class="row">
+        <div class="w-full text-center">
+          <h2 class="section-title py-10 relative text-xl font-bold">
+            our services
+          </h2>
+          <p class="section-desc py-4">
             We provide to you the best choiches for you. Adjust it to your
             health needs and make sure your undergo treatment with our highly
             qualified doctors you can consult with us which type of service is
@@ -58,136 +61,110 @@
           </p>
         </div>
         <div class="cells">
-          <div class="large-wi-33 medium-wi-50 small-wi-100 cell">
-            <div class="content-box">
-              <div class="icon-box">
-                <img src="./images/Frame.svg" alt="" />
+          <div class="lg:w-4/12 md:w-1/2 w-full cell">
+            <div class="content-box py-10 bg-white rounded-3xl h-full">
+              <div class="w-24 p-4">
+                <img class="w-full h-full" src="./images/Frame.svg" alt="" />
               </div>
-              <h3>Details info</h3>
-              <p>
+              <h3 class="p-6">Details info</h3>
+              <p class="p-6">
                 Free consultation with our trusted doctors and get the best
                 recomendations
               </p>
             </div>
           </div>
-          <div class="large-wi-33 medium-wi-50 small-wi-100 cell">
-            <div class="content-box">
-              <div class="icon-box">
-                <img src="./images/Frame (3).svg" alt="" />
+          <div class="lg:w-4/12 md:w-1/2 w-full cell">
+            <div class="content-box py-10 bg-white rounded-3xl h-full">
+              <div class="w-24 p-4">
+                <img
+                  class="w-full h-full"
+                  src="./images/Frame (3).svg"
+                  alt=""
+                />
               </div>
-              <h3>Details info</h3>
-              <p>
+              <h3 class="p-6">Details info</h3>
+              <p class="p-6">
                 Free consultation with our trusted doctors and get the best
                 recomendations
               </p>
             </div>
           </div>
-          <div class="large-wi-33 medium-wi-50 small-wi-100 cell">
-            <div class="content-box">
-              <div class="icon-box">
-                <img src="./images/Frame (2).svg" alt="" />
+          <div class="lg:w-4/12 md:w-1/2 w-full cell">
+            <div class="content-box py-10 bg-white rounded-3xl h-full">
+              <div class="w-24 p-4">
+                <img
+                  class="w-full h-full"
+                  src="./images/Frame (2).svg"
+                  alt=""
+                />
               </div>
-              <h3>Details info</h3>
-              <p>
+              <h3 class="p-6">Details info</h3>
+              <p class="p-6">
                 Free consultation with our trusted doctors and get the best
                 recomendations
               </p>
             </div>
           </div>
-          <div class="large-wi-33 medium-wi-50 small-wi-100 cell">
-            <div class="content-box">
-              <div class="icon-box">
-                <img src="./images/Frame (3).svg" alt="" />
+          <div class="lg:w-4/12 md:w-1/2 w-full cell">
+            <div class="content-box py-10 bg-white rounded-3xl h-full">
+              <div class="w-24 p-4">
+                <img
+                  class="w-full h-full"
+                  src="./images/Frame (1).svg"
+                  alt=""
+                />
               </div>
-              <h3>Details info</h3>
-              <p>
+              <h3 class="p-6">Details info</h3>
+              <p class="p-6">
                 Free consultation with our trusted doctors and get the best
                 recomendations
               </p>
             </div>
           </div>
-          <div class="large-wi-33 medium-wi-50 small-wi-100 cell">
-            <div class="content-box">
-              <div class="icon-box">
-                <img src="./images/Frame (3).svg" alt="" />
+          <div class="lg:w-4/12 md:w-1/2 w-full cell">
+            <div class="content-box py-10 bg-white rounded-3xl h-full">
+              <div class="w-24 p-4">
+                <img class="w-full h-full" src="./images/Group.svg" alt="" />
               </div>
-              <h3>Details info</h3>
-              <p>
+              <h3 class="p-6">Details info</h3>
+              <p class="p-6">
                 Free consultation with our trusted doctors and get the best
                 recomendations
               </p>
             </div>
           </div>
-          <div class="large-wi-33 medium-wi-50 small-wi-100 cell">
-            <div class="content-box">
-              <div class="icon-box">
-                <img src="./images/Frame (4).svg" alt="" />
+          <div class="lg:w-4/12 md:w-1/2 w-full cell">
+            <div class="content-box py-10 bg-white rounded-3xl h-full">
+              <div class="w-24 p-4">
+                <img
+                  class="w-full h-full"
+                  src="./images/Frame (4).svg"
+                  alt=""
+                />
               </div>
-              <h3>Details info</h3>
-              <p>
+              <h3 class="p-6">Details info</h3>
+              <p class="p-6">
                 Free consultation with our trusted doctors and get the best
                 recomendations
               </p>
             </div>
           </div>
         </div>
-        <!-- <div class="large-wi-33 medium-wi-50 small-wi-100 cell content-box">
-          <div class="icon-box">
-            <img src="./images/Frame (3).svg" alt="" />
-          </div>
-          <h3>Emergency care</h3>
-          <p>
-            You can get 24/7 urgent care for yourself or your children and your
-            lovely family
-          </p>
-        </div>
-        <div class="large-wi-33 medium-wi-50 small-wi-100 cell content-box">
-          <div class="icon-box">
-            <img src="./images/Frame (4).svg" alt="" />
-          </div>
-          <h3>Tracking</h3>
-          <p>Track and save your medical history and health data</p>
-        </div>
-        <div class="large-wi-33 medium-wi-50 small-wi-100 cell content-box">
-          <div class="icon-box">
-            <img src="./images/Frame (2).svg" alt="" />
-          </div>
-          <h3>Details info</h3>
-          <p>
-            Free consultation with our trusted doctors and get the best
-            recomendations
-          </p>
-        </div>
-        <div class="large-wi-33 medium-wi-50 small-wi-100 cell content-box">
-          <div class="icon-box">
-            <img src="./images/Frame (3).svg" alt="" />
-          </div>
-          <h3>Emergency care</h3>
-          <p>
-            You can get 24/7 urgent care for yourself or your children and your
-            lovely family
-          </p>
-        </div>
-        <div class="large-wi-33 medium-wi-50 small-wi-100 cell content-box">
-          <div class="icon-box">
-            <img src="./images/Frame (4).svg" alt="" />
-          </div>
-          <h3>Tracking</h3>
-          <p>Track and save your medical history and health data</p>
-        </div> -->
-        <div class="jus-center flex-row wi-100 learn-box">
+        <div class="justify-center flex flex-row w-full py-10">
           <button class="button button-outline">learn more</button>
         </div>
       </div>
     </section>
-    <section class="leadingSection">
-      <div class="container jus-between al-center">
-        <div class="large-wi-50">
+    <section class="section py-16">
+      <div class="row justify-between items-center">
+        <div class="lg:w-1/2">
           <img src="./images/trafalgar-illustration sec02 1.png" alt="" />
         </div>
-        <div class="large-wi-30">
-          <h2 class="leading-h2">Leading healthcare providers</h2>
-          <p>
+        <div class="lg:w-4/12">
+          <h2 class="section-title section-title--left text-3xl font-bold py-5 relative">
+            Leading healthcare providers
+          </h2>
+          <p class="section-desc py-5">
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone. To us, it’s not just
             work. We take pride in the solutions we deliver
@@ -196,32 +173,38 @@
         </div>
       </div>
     </section>
-    <section class="downloadSection">
-      <div class="container jus-between al-center">
-        <div class="large-wi-30 small-mb-16 medium-mb-16">
-          <h2 class="download-h2">Download our mobile apps</h2>
-          <p>
+    <section class="py-16 w-full">
+      <div class="section row justify-between items-center">
+        <div class="lg:w-4/12 small-mb-16 md:mb-4">
+          <h2 class="section-title section-title--left text-3xl font-bold py-5 relative">
+            Download our mobile apps
+          </h2>
+          <p class="section-desc py-5">
             Our dedicated patient engagement app and web portal allow you to
             access information instantaneously (no tedeous form, long calls, or
             administrative hassle) and securely
           </p>
-          <button class="button button-outline flex-center">
+          <button
+            class="button button-outline flex items-center justify-center"
+          >
             download
-            <img src="./images/Vector.svg" alt="" class="button-icon" />
+            <img src="./images/Vector.svg" alt="" class="m-1 w-3" />
           </button>
         </div>
-        <div class="large-wi-50">
+        <div class="lg:w-1/2">
           <img src="./images/trafalgar-illustration sec03 1.png" alt="" />
         </div>
       </div>
     </section>
-    <section class="sliderSection">
-      <div class="container">
-        <div class="slider-wrapper wi-100">
+    <section class="section sliderSection">
+      <div class="row">
+        <div class="slider-wrapper w-full">
           <div class="blue-box active" data-slide="0">
-            <h2>What our customer are saying</h2>
-            <div class="flex-center flex-wrap blue-box-content">
-              <div class="large-wi-50 small-wi-100 medium-wi-100 flex-center">
+            <h2 class="section-title">What our customer are saying</h2>
+            <div
+              class="flex justify-center items-center flex-wrap blue-box-content"
+            >
+              <div class="lg:w-1/2 w-full flex items-center justify-center">
                 <div class="circle-box">
                   <img src="./images/image 1.png" alt="" />
                 </div>
@@ -230,8 +213,8 @@
                   <h5>Founder Circle</h5>
                 </div>
               </div>
-              <div class="large-wi-50 small-wi-100 medium-wi-100">
-                <p>
+              <div class="lg:w-1/2 w-full">
+                <p class="text-white">
                   “Our dedicated patient engagement app and web portal allow you
                   to access information instantaneously (no tedeous form, long
                   calls, or administrative hassle) and securely”
@@ -241,8 +224,10 @@
           </div>
           <div class="blue-box" data-slide="1">
             <h2>What our customer are saying</h2>
-            <div class="flex-center flex-wrap blue-box-content">
-              <div class="large-wi-50 small-wi-100 medium-wi-100 flex-center">
+            <div
+              class="flex justify-center items-center flex-wrap blue-box-content"
+            >
+              <div class="lg:w-1/2 w-full flex items-center justify-center">
                 <div class="circle-box">
                   <img src="./images/image 1.png" alt="" />
                 </div>
@@ -251,24 +236,24 @@
                   <h5>Founder Circle</h5>
                 </div>
               </div>
-              <div class="large-wi-50 small-wi-100 medium-wi-100">
-                <p>
-                  “
-                  Our dedicated patient engagement app and web portal allow you
-                  to access information instantaneously (no tedeous form, long
-                  calls, or administrative hassle) and securely
-                  Our dedicated patient engagement app and web portal allow you
-                  to access information instantaneously (no tedeous form, long
-                  calls, or administrative hassle) and securely
-                  ”
+              <div class="lg:w-1/2 w-full">
+                <p class="text-white">
+                  “ Our dedicated patient engagement app and web portal allow
+                  you to access information instantaneously (no tedeous form,
+                  long calls, or administrative hassle) and securely Our
+                  dedicated patient engagement app and web portal allow you to
+                  access information instantaneously (no tedeous form, long
+                  calls, or administrative hassle) and securely ”
                 </p>
               </div>
             </div>
           </div>
           <div class="blue-box" data-slide="2">
             <h2>What our customer are saying</h2>
-            <div class="flex-center flex-wrap blue-box-content">
-              <div class="large-wi-50 small-wi-100 medium-wi-100 flex-center">
+            <div
+              class="flex justify-center items-center flex-wrap blue-box-content"
+            >
+              <div class="lg:w-1/2 w-full flex items-center justify-center">
                 <div class="circle-box">
                   <img src="./images/image 1.png" alt="" />
                 </div>
@@ -277,14 +262,13 @@
                   <h5>Founder Circle</h5>
                 </div>
               </div>
-              <div class="large-wi-50 small-wi-100 medium-wi-100">
-                <p>
-                  “
-                  Our dedicated patient engagement app and web portal allow you
-                  Our dedicated patient engagement app and web portal allow you
-                  Our dedicated patient engagement app and web portal allow you
-                  to access information instantaneously (no tedeous form, long
-                  calls, or administrative hassle) and securely”
+              <div class="lg:w-1/2 w-full">
+                <p class="text-white">
+                  “ Our dedicated patient engagement app and web portal allow
+                  you Our dedicated patient engagement app and web portal allow
+                  you Our dedicated patient engagement app and web portal allow
+                  you to access information instantaneously (no tedeous form,
+                  long calls, or administrative hassle) and securely”
                 </p>
               </div>
             </div>
@@ -292,77 +276,91 @@
         </div>
       </div>
     </section>
-    <section class="articleSection">
-      <div class="container">
-        <div class="wi-100 articleSection-head">
-          <h2>Check out our latest article</h2>
+    <section class="section articleSection py-24 w-full">
+      <div class="row">
+        <div class="w-full text-center">
+          <h2 class="section-title p-7 relative mb-12 text-xl font-bold">
+            Check out our latest article
+          </h2>
         </div>
         <div class="cells">
-          <div class="large-wi-33 medium-wi-50 small-wi-100 cell">
-            <div class="articleSection-boxes">
+          <div class="lg:w-4/12 md:w-1/2 w-full cell">
+            <div
+              class="articleSection-boxes h-full bg-white rounded-3xl overflow-hidden"
+            >
               <div>
-                <img src="./images/image 2.png" alt="" />
+                <img class="w-full" src="./images/image 2.png" alt="" />
               </div>
-              <div class="articleSection-content">
-                <h3>Disease detection, check up in the laboratory</h3>
-                <p>
+              <div class="p-5">
+                <h3 class="py-5 font-bold">
+                  Disease detection, check up in the laboratory
+                </h3>
+                <p class="py-3">
                   In this case, the role of the health laboratory is very
                   important to do a disease detection...
                 </p>
-                <a href="">read more</a>
+                <a class="py-5 block no-underline" href="">read more</a>
               </div>
             </div>
           </div>
-          <div class="large-wi-33 medium-wi-50 small-wi-100 cell">
-            <div class="articleSection-boxes">
+          <div class="lg:w-4/12 md:w-1/2 w-full cell">
+            <div
+              class="articleSection-boxes h-full bg-white rounded-3xl overflow-hidden"
+            >
               <div>
-                <img src="./images/image 3.png" alt="" />
+                <img class="w-full" src="./images/image 3.png" alt="" />
               </div>
-              <div class="articleSection-content">
-                <h3>Herbal medicines that are safe for consumption</h3>
-                <p>
+              <div class="p-5">
+                <h3 class="py-5 font-bold">
+                  Herbal medicines that are safe for consumption
+                </h3>
+                <p class="py-3">
                   Herbal medicine is very widely used at this time because of
                   its very good for your health...
                 </p>
-                <a href="">read more</a>
+                <a class="py-5 block no-underline" href="">read more</a>
               </div>
             </div>
           </div>
-          <div class="large-wi-33 medium-wi-50 small-wi-100 cell">
-            <div class="articleSection-boxes">
+          <div class="lg:w-4/12 md:w-1/2 w-full cell">
+            <div
+              class="articleSection-boxes h-full bg-white rounded-3xl overflow-hidden"
+            >
               <div class="headImage">
-                <img src="./images/image 4.png" alt="" />
+                <img class="w-full" src="./images/image 4.png" alt="" />
               </div>
-              <div class="articleSection-content">
-                <h3>Natural care for healthy facial skin</h3>
-                <p>
+              <div class="p-5">
+                <h3 class="py-5 font-bold">
+                  Natural care for healthy facial skin
+                </h3>
+                <p class="py-3">
                   A healthy lifestyle should start from now and also for your
                   skin health. There are some...
                 </p>
-                <a href="">read more</a>
+                <a class="py-5 block no-underline" href="">read more</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="jus-center flex-row wi-100 view-box">
+        <div class="justify-center flex flex-row w-full py-12">
           <button class="button button-outline">view all</button>
         </div>
       </div>
     </section>
-    <footer class="footer">
-      <div class="container">
-        <div class="large-wi-30 small-wi-100 medium-wi-100">
+    <footer class="footer text-white w-full py-20 text-xs leading-6">
+      <div class="row">
+        <div class="lg:w-4/12 w-full">
           <a href="">
-            <img src="./images/logo.svg" alt="" />
+            <img class="w-40 mb-4" src="./images/logo.svg" alt="" />
           </a>
-          <p>
+          <p class="text-white">
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone
           </p>
           <h6>©Trafalgar PTY LTD 2020. All rights reserved</h6>
         </div>
-        <div class="large-wi-70 small-wi-100 medium-wi-100 flex-row al-center jus-center">
-          <div class="large-wi-33 medium-wi-50 small-wi-100">
+        <div class="lg:w-8/12 w-full flex flex-row items-center justify-center">
+          <div class="lg:w-4/12 md:w-1/2 w-full">
             <ul>
               <li><h3>company</h3></li>
               <li>about</li>
@@ -371,7 +369,7 @@
               <li>apps</li>
             </ul>
           </div>
-          <div class="large-wi-33 medium-wi-50 small-wi-100">
+          <div class="lg:w-4/12 md:w-1/2 w-full">
             <ul>
               <li><h3>region</h3></li>
               <li>indonesia</li>
@@ -380,7 +378,7 @@
               <li>canada</li>
             </ul>
           </div>
-          <div class="large-wi-33 medium-wi-50 small-wi-100">
+          <div class="lg:w-4/12 md:w-1/2 w-full">
             <ul>
               <li><h3>help</h3></li>
               <li>help center</li>
