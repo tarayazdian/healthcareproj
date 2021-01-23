@@ -4,77 +4,89 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./theme/app.css" />
+    <!-- <link rel="stylesheet" href="./theme/app.css" /> -->
     <link rel="stylesheet" href="public/build/tailwind.css" />
   </head>
   <body>
     <header class="py-4">
-      <div class="row flex justify-between items-center">
+      <div
+        class="w-full mx-auto flex px-4 flex-wrap max-w-screen-lg flex justify-between items-center"
+      >
         <a href="">
           <img src="./images/logo.svg" alt="" />
         </a>
         <ul class="menu px-2 lg:flex hidden md:hidden">
-          <li class="menu-item active p-6">
+          <li class="text-black p-6">
             <a href="">home</a>
           </li>
-          <li class="menu-item p-6">
-            <a href="">find a doctor</a>
+          <li class="text-gray p-6">
+            <a class="hover:text-black" href="">find a doctor</a>
           </li>
-          <li class="menu-item p-6">
-            <a href="">apps</a>
+          <li class="text-gray p-6">
+            <a class="hover:text-black" href="">apps</a>
           </li>
-          <li class="menu-item p-6">
-            <a href="">testimonials</a>
+          <li class="text-gray p-6">
+            <a class="hover:text-black" href="">testimonials</a>
           </li>
-          <li class="menu-item p-6">
-            <a href="">about us</a>
+          <li class="text-gray p-6">
+            <a class="hover:text-black" href="">about us</a>
           </li>
         </ul>
       </div>
     </header>
     <section class="py-9">
-      <div class="row justify-between items-center">
+      <div
+        class="w-full mx-auto flex px-4 flex-wrap max-w-screen-lg justify-between items-center"
+      >
         <div class="lg:w-4/12 md:w-1/2 w-full mb-4 lg:mb-0">
-          <h1 class="text-3xl font-bold py-2">Virtual healthcare for you</h1>
-          <p class="py-4">
+          <h1
+            class="text-3xl font-bold py-4 relative section-title section-title--left"
+          >
+            Virtual healthcare for you
+          </h1>
+          <p class="text-gray py-4">
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone
           </p>
-          <button class="button button-blue">consult today</button>
+          <button
+            class="rounded-3xl px-12 h-12 cursor-pointer text-white border-none bg-lightBlue"
+          >
+            consult today
+          </button>
         </div>
         <div class="md:w-1/2 w-full">
           <img src="./images/trafalgar-header illustration 1.png" alt="" />
         </div>
       </div>
     </section>
-    <section class="section servicesSection py-20">
-      <div class="row">
+    <section class="section bg-servicesSection bg-no-repeat bg-left py-20">
+      <div class="w-full mx-auto flex px-4 flex-wrap max-w-screen-lg">
         <div class="w-full text-center">
           <h2 class="section-title py-10 relative text-xl font-bold">
             our services
           </h2>
-          <p class="section-desc py-4">
+          <p class="text-gray py-4">
             We provide to you the best choiches for you. Adjust it to your
             health needs and make sure your undergo treatment with our highly
             qualified doctors you can consult with us which type of service is
             suitable for your health
           </p>
         </div>
-        <div class="cells">
-          <div class="lg:w-4/12 md:w-1/2 w-full cell">
-            <div class="content-box py-10 bg-white rounded-3xl h-full">
+        <div class="-m-2 flex flex-wrap">
+          <div class="lg:w-4/12 md:w-1/2 w-full p-2">
+            <div class="shadow py-10 bg-white rounded-3xl h-full">
               <div class="w-24 p-4">
                 <img class="w-full h-full" src="./images/Frame.svg" alt="" />
               </div>
               <h3 class="p-6">Details info</h3>
-              <p class="p-6">
+              <p class="p-6 text-gray">
                 Free consultation with our trusted doctors and get the best
                 recomendations
               </p>
             </div>
           </div>
-          <div class="lg:w-4/12 md:w-1/2 w-full cell">
-            <div class="content-box py-10 bg-white rounded-3xl h-full">
+          <div class="lg:w-4/12 md:w-1/2 w-full p-2">
+            <div class="shadow py-10 bg-white rounded-3xl h-full">
               <div class="w-24 p-4">
                 <img
                   class="w-full h-full"
@@ -83,14 +95,14 @@
                 />
               </div>
               <h3 class="p-6">Details info</h3>
-              <p class="p-6">
+              <p class="p-6 text-gray">
                 Free consultation with our trusted doctors and get the best
                 recomendations
               </p>
             </div>
           </div>
-          <div class="lg:w-4/12 md:w-1/2 w-full cell">
-            <div class="content-box py-10 bg-white rounded-3xl h-full">
+          <div class="lg:w-4/12 md:w-1/2 w-full p-2">
+            <div class="shadow py-10 bg-white rounded-3xl h-full">
               <div class="w-24 p-4">
                 <img
                   class="w-full h-full"
@@ -99,14 +111,14 @@
                 />
               </div>
               <h3 class="p-6">Details info</h3>
-              <p class="p-6">
+              <p class="p-6 text-gray">
                 Free consultation with our trusted doctors and get the best
                 recomendations
               </p>
             </div>
           </div>
-          <div class="lg:w-4/12 md:w-1/2 w-full cell">
-            <div class="content-box py-10 bg-white rounded-3xl h-full">
+          <div class="lg:w-4/12 md:w-1/2 w-full p-2">
+            <div class="shadow py-10 bg-white rounded-3xl h-full">
               <div class="w-24 p-4">
                 <img
                   class="w-full h-full"
@@ -115,26 +127,26 @@
                 />
               </div>
               <h3 class="p-6">Details info</h3>
-              <p class="p-6">
+              <p class="p-6 text-gray">
                 Free consultation with our trusted doctors and get the best
                 recomendations
               </p>
             </div>
           </div>
-          <div class="lg:w-4/12 md:w-1/2 w-full cell">
-            <div class="content-box py-10 bg-white rounded-3xl h-full">
+          <div class="lg:w-4/12 md:w-1/2 w-full p-2">
+            <div class="shadow py-10 bg-white rounded-3xl h-full">
               <div class="w-24 p-4">
                 <img class="w-full h-full" src="./images/Group.svg" alt="" />
               </div>
               <h3 class="p-6">Details info</h3>
-              <p class="p-6">
+              <p class="p-6 text-gray">
                 Free consultation with our trusted doctors and get the best
                 recomendations
               </p>
             </div>
           </div>
-          <div class="lg:w-4/12 md:w-1/2 w-full cell">
-            <div class="content-box py-10 bg-white rounded-3xl h-full">
+          <div class="lg:w-4/12 md:w-1/2 w-full p-2">
+            <div class="shadow py-10 bg-white rounded-3xl h-full">
               <div class="w-24 p-4">
                 <img
                   class="w-full h-full"
@@ -143,49 +155,67 @@
                 />
               </div>
               <h3 class="p-6">Details info</h3>
-              <p class="p-6">
+              <p class="p-6 text-gray">
                 Free consultation with our trusted doctors and get the best
                 recomendations
               </p>
             </div>
           </div>
         </div>
-        <div class="justify-center flex flex-row w-full py-10">
-          <button class="button button-outline">learn more</button>
+        <div
+          class="justify-center flex flex-w-full mx-auto flex px-4 flex-wrap max-w-screen-lg w-full py-10"
+        >
+          <button
+            class="rounded-3xl px-12 h-12 cursor-pointer border-lightBlue text-lightBlue border-solid border"
+          >
+            learn more
+          </button>
         </div>
       </div>
     </section>
     <section class="section py-16">
-      <div class="row justify-between items-center">
+      <div
+        class="w-full mx-auto flex px-4 flex-wrap max-w-screen-lg justify-between items-center"
+      >
         <div class="lg:w-1/2">
           <img src="./images/trafalgar-illustration sec02 1.png" alt="" />
         </div>
         <div class="lg:w-4/12">
-          <h2 class="section-title section-title--left text-3xl font-bold py-5 relative">
+          <h2
+            class="section-title section-title--left text-3xl font-bold py-5 relative"
+          >
             Leading healthcare providers
           </h2>
-          <p class="section-desc py-5">
+          <p class="text-gray py-5">
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone. To us, it’s not just
             work. We take pride in the solutions we deliver
           </p>
-          <button class="button button-outline">learn more</button>
+          <button
+            class="rounded-3xl px-12 h-12 cursor-pointer border-lightBlue text-lightBlue border-solid border"
+          >
+            learn more
+          </button>
         </div>
       </div>
     </section>
     <section class="py-16 w-full">
-      <div class="section row justify-between items-center">
+      <div
+        class="section w-full mx-auto flex px-4 flex-wrap max-w-screen-lg justify-between items-center"
+      >
         <div class="lg:w-4/12 small-mb-16 md:mb-4">
-          <h2 class="section-title section-title--left text-3xl font-bold py-5 relative">
+          <h2
+            class="section-title section-title--left text-3xl font-bold py-5 relative"
+          >
             Download our mobile apps
           </h2>
-          <p class="section-desc py-5">
+          <p class="text-gray py-5">
             Our dedicated patient engagement app and web portal allow you to
             access information instantaneously (no tedeous form, long calls, or
             administrative hassle) and securely
           </p>
           <button
-            class="button button-outline flex items-center justify-center"
+            class="rounded-3xl px-12 h-12 cursor-pointer border-lightBlue text-lightBlue border-solid border flex items-center justify-center"
           >
             download
             <img src="./images/Vector.svg" alt="" class="m-1 w-3" />
@@ -196,16 +226,23 @@
         </div>
       </div>
     </section>
-    <section class="section sliderSection">
-      <div class="row">
-        <div class="slider-wrapper w-full">
-          <div class="blue-box active" data-slide="0">
-            <h2 class="section-title">What our customer are saying</h2>
+    <section class="section w-full text-center text-white py-12">
+      <div class="w-full mx-auto flex px-4 flex-wrap max-w-screen-lg">
+        <div class="relative w-full">
+          <div
+            class="blue-box w-full relative opacity-100 top-0 left-0 py-20 px-4 rounded-3xl"
+            data-slide="0"
+          >
+            <h2 class="pb-4 section-title section-title--white relative mx-auto">
+              What our customer are saying
+            </h2>
             <div
-              class="flex justify-center items-center flex-wrap blue-box-content"
+              class="flex justify-center items-center flex-wrap text-left py-12"
             >
               <div class="lg:w-1/2 w-full flex items-center justify-center">
-                <div class="circle-box">
+                <div
+                  class="h-32 overflow-hidden rounded-full border-2 border-solid border-white mr-5 w-32"
+                >
                   <img src="./images/image 1.png" alt="" />
                 </div>
                 <div>
@@ -222,13 +259,20 @@
               </div>
             </div>
           </div>
-          <div class="blue-box" data-slide="1">
-            <h2>What our customer are saying</h2>
+          <div
+            class="blue-box w-full absolute top-0 left-0 py-20 px-4 rounded-3xl opacity-0"
+            data-slide="1"
+          >
+            <h2 class="pb-4 section-title section-title--white relative mx-auto">
+              What our customer are saying
+            </h2>
             <div
-              class="flex justify-center items-center flex-wrap blue-box-content"
+              class="flex justify-center items-center flex-wrap text-left py-12"
             >
               <div class="lg:w-1/2 w-full flex items-center justify-center">
-                <div class="circle-box">
+                <div
+                  class="h-32 overflow-hidden rounded-full border-2 border-solid border-white mr-5 w-32"
+                >
                   <img src="./images/image 1.png" alt="" />
                 </div>
                 <div>
@@ -248,13 +292,20 @@
               </div>
             </div>
           </div>
-          <div class="blue-box" data-slide="2">
-            <h2>What our customer are saying</h2>
+          <div
+            class="blue-box w-full absolute top-0 left-0 py-20 px-4 rounded-3xl opacity-0"
+            data-slide="2"
+          >
+            <h2 class="pb-4 section-title section-title--white relative mx-auto">
+              What our customer are saying
+            </h2>
             <div
-              class="flex justify-center items-center flex-wrap blue-box-content"
+              class="flex justify-center items-center flex-wrap text-left py-12"
             >
               <div class="lg:w-1/2 w-full flex items-center justify-center">
-                <div class="circle-box">
+                <div
+                  class="h-32 overflow-hidden rounded-full border-2 border-solid border-white mr-5 w-32"
+                >
                   <img src="./images/image 1.png" alt="" />
                 </div>
                 <div>
@@ -276,17 +327,19 @@
         </div>
       </div>
     </section>
-    <section class="section articleSection py-24 w-full">
-      <div class="row">
+    <section
+      class="section bg-articleSection bg-no-repeat bg-right py-24 w-full"
+    >
+      <div class="w-full mx-auto flex px-4 flex-wrap max-w-screen-lg">
         <div class="w-full text-center">
           <h2 class="section-title p-7 relative mb-12 text-xl font-bold">
             Check out our latest article
           </h2>
         </div>
-        <div class="cells">
-          <div class="lg:w-4/12 md:w-1/2 w-full cell">
+        <div class="-m-2 flex flex-wrap">
+          <div class="lg:w-4/12 md:w-1/2 w-full p-2">
             <div
-              class="articleSection-boxes h-full bg-white rounded-3xl overflow-hidden"
+              class="shadow bg-no-repeat bg-right-boxes h-full bg-white rounded-3xl overflow-hidden"
             >
               <div>
                 <img class="w-full" src="./images/image 2.png" alt="" />
@@ -295,17 +348,19 @@
                 <h3 class="py-5 font-bold">
                   Disease detection, check up in the laboratory
                 </h3>
-                <p class="py-3">
+                <p class="py-3 text-gray">
                   In this case, the role of the health laboratory is very
                   important to do a disease detection...
                 </p>
-                <a class="py-5 block no-underline" href="">read more</a>
+                <a class="py-5 block no-underline text-lightBlue" href=""
+                  >read more</a
+                >
               </div>
             </div>
           </div>
-          <div class="lg:w-4/12 md:w-1/2 w-full cell">
+          <div class="lg:w-4/12 md:w-1/2 w-full p-2">
             <div
-              class="articleSection-boxes h-full bg-white rounded-3xl overflow-hidden"
+              class="shadow bg-no-repeat bg-right-boxes h-full bg-white rounded-3xl overflow-hidden"
             >
               <div>
                 <img class="w-full" src="./images/image 3.png" alt="" />
@@ -314,17 +369,19 @@
                 <h3 class="py-5 font-bold">
                   Herbal medicines that are safe for consumption
                 </h3>
-                <p class="py-3">
+                <p class="py-3 text-gray">
                   Herbal medicine is very widely used at this time because of
                   its very good for your health...
                 </p>
-                <a class="py-5 block no-underline" href="">read more</a>
+                <a class="py-5 block no-underline text-lightBlue" href=""
+                  >read more</a
+                >
               </div>
             </div>
           </div>
-          <div class="lg:w-4/12 md:w-1/2 w-full cell">
+          <div class="lg:w-4/12 md:w-1/2 w-full p-2">
             <div
-              class="articleSection-boxes h-full bg-white rounded-3xl overflow-hidden"
+              class="shadow bg-no-repeat bg-right-boxes h-full bg-white rounded-3xl overflow-hidden"
             >
               <div class="headImage">
                 <img class="w-full" src="./images/image 4.png" alt="" />
@@ -333,22 +390,30 @@
                 <h3 class="py-5 font-bold">
                   Natural care for healthy facial skin
                 </h3>
-                <p class="py-3">
+                <p class="py-3 text-gray">
                   A healthy lifestyle should start from now and also for your
                   skin health. There are some...
                 </p>
-                <a class="py-5 block no-underline" href="">read more</a>
+                <a class="py-5 block no-underline text-lightBlue" href=""
+                  >read more</a
+                >
               </div>
             </div>
           </div>
         </div>
-        <div class="justify-center flex flex-row w-full py-12">
-          <button class="button button-outline">view all</button>
+        <div
+          class="justify-center flex flex-w-full mx-auto flex px-4 flex-wrap max-w-screen-lg w-full py-12"
+        >
+          <button
+            class="rounded-3xl px-12 h-12 cursor-pointer border-lightBlue text-lightBlue border-solid border"
+          >
+            view all
+          </button>
         </div>
       </div>
     </section>
     <footer class="footer text-white w-full py-20 text-xs leading-6">
-      <div class="row">
+      <div class="w-full mx-auto flex px-4 flex-wrap max-w-screen-lg">
         <div class="lg:w-4/12 w-full">
           <a href="">
             <img class="w-40 mb-4" src="./images/logo.svg" alt="" />
@@ -359,8 +424,10 @@
           </p>
           <h6>©Trafalgar PTY LTD 2020. All rights reserved</h6>
         </div>
-        <div class="lg:w-8/12 w-full flex flex-row items-center justify-center">
-          <div class="lg:w-4/12 md:w-1/2 w-full">
+        <div
+          class="lg:w-8/12 w-full flex flex-w-full mx-auto flex flex-wrap max-w-screen-lg items-center justify-center"
+        >
+          <div class="w-4/12">
             <ul>
               <li><h3>company</h3></li>
               <li>about</li>
@@ -369,7 +436,7 @@
               <li>apps</li>
             </ul>
           </div>
-          <div class="lg:w-4/12 md:w-1/2 w-full">
+          <div class="w-4/12">
             <ul>
               <li><h3>region</h3></li>
               <li>indonesia</li>
@@ -378,7 +445,7 @@
               <li>canada</li>
             </ul>
           </div>
-          <div class="lg:w-4/12 md:w-1/2 w-full">
+          <div class="w-4/12">
             <ul>
               <li><h3>help</h3></li>
               <li>help center</li>
